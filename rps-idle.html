@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors with idle elements</title>
+        <link rel="stylesheet" href="styles/rps.css">
+    </head>
+    <body>
+        <p class="name">Rock Paper Scissors with IDLE elements</p>
+        <button class="moves"onclick="
+        const m = cMove();
+        game('Rock');
+        ">
+        <img class="icon"src="images/rock-emoji.png">></button>
+        <button class="moves" onclick="
+        const m = cMove();
+        game('Paper');
+        "><img class="icon" src="images/paper-emoji.png"></button>
+        <button class="moves" onclick="
+        const m = cMove();
+        game('Scissors');
+        "><img class="icon" src="images/scissors-emoji.png"></button>
+        <p class="results"></p>
+        <p class="move"></p>
+        <p class="scores"></p>
+        <button class="Auto" onclick="
+        autoPlay();
+        ">Auto play</button>
+        <div class="upgrade-buttons">
+            <div class="upgrade-auto-play">
+            <button onclick="upgradeAutoPlay();" class="Auto">Upgrade autoplay</button>
+            <p class="level"></p>
+            </div>
+            <div class="upgrade-play-power">
+                <button onclick="upgradePlayingPower();" class="Auto">Upgrade play power</button>
+                <p class="power-level"></p>
+            </div>
+        </div>
+        <p>Backspace for reset</p>
+        <div class="usure"></div>
+        <script src="scripts/rps.js">
+        </script>
+    </body>
+</html>
