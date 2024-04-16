@@ -1,4 +1,4 @@
-export const youtubeVideos =[
+export const video =[
     {
         video:{
             time:'8:11',
