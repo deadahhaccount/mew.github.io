@@ -153,5 +153,5 @@ if(m==='Rock'){
 localStorage.setItem('score',JSON.stringify(score));
 scoreUpdate();
 document.querySelector('.results').innerHTML=r;
-document.querySelector('.move').innerHTML=`You <img class="icon" src="${move}-emoji.png"> <img class="icon" src="${m}-emoji.png"> Computer`
+document.querySelector('.move').innerHTML=`You <img class="icon" src="https://github.com/deadahhaccount/mew.github.io/blob/main/${move}-emoji.png"> <img class="icon" src="https://github.com/deadahhaccount/mew.github.io/blob/main/${m}-emoji.png"> Computer`
 }
