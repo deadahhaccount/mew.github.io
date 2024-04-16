@@ -1,4 +1,4 @@
-import {youtubeVideos} from "youtube-data.js"
+import {youtubeVideos} from "./youtube-data.js"
 
 let youtubeHTML='';
 youtubeVideos.forEach((video)=>{
